@@ -1,0 +1,876 @@
+Last login: Mon Jun 14 16:10:11 on console
+a1278@MacBook-Pro-a1278 ~ % git
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+a1278@MacBook-Pro-a1278 ~ % git --versinn
+unknown option: --versinn
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+a1278@MacBook-Pro-a1278 ~ % gid --version
+zsh: command not found: gid
+a1278@MacBook-Pro-a1278 ~ % git --version
+git version 2.24.3 (Apple Git-128)
+a1278@MacBook-Pro-a1278 ~ % git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+a1278@MacBook-Pro-a1278 ~ % clear
+
+a1278@MacBook-Pro-a1278 ~ % git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+a1278@MacBook-Pro-a1278 ~ % clear
+
+a1278@MacBook-Pro-a1278 ~ % copy NUL .gitconfig
+zsh: command not found: copy
+a1278@MacBook-Pro-a1278 ~ % git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+a1278@MacBook-Pro-a1278 ~ % clear
+
+a1278@MacBook-Pro-a1278 ~ % git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+a1278@MacBook-Pro-a1278 ~ % gitconfig
+zsh: command not found: gitconfig
+a1278@MacBook-Pro-a1278 ~ % help
+zsh: command not found: help
+a1278@MacBook-Pro-a1278 ~ % clear
+
+a1278@MacBook-Pro-a1278 ~ % git config --list --global
+fatal: unable to read config file '/Users/a1278/.gitconfig': No such file or directory
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 ~ % git config --list
+credential.helper=osxkeychain
+a1278@MacBook-Pro-a1278 ~ % git confif --list
+git: 'confif' is not a git command. See 'git --help'.
+
+The most similar command is
+	config
+a1278@MacBook-Pro-a1278 ~ % git config --global user.name "MarinaSir"
+a1278@MacBook-Pro-a1278 ~ % git config --global user.email marina.sir1982@gmail.com
+a1278@MacBook-Pro-a1278 ~ % git config --list
+credential.helper=osxkeychain
+user.name=MarinaSir
+user.email=marina.sir1982@gmail.com
+a1278@MacBook-Pro-a1278 ~ % ls
+<html>.html	Documents	Movies		Postman		Visual.studio
+Applications	Downloads	Music		Public		qa.a-tsp.com
+Desktop		Library		Pictures	VSCODE-BASICS
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+
+
+a1278@MacBook-Pro-a1278 ~ % ls
+<html>.html	Documents	Movies		Postman		Visual.studio
+Applications	Downloads	Music		Public		qa.a-tsp.com
+Desktop		Library		Pictures	VSCODE-BASICS
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 ~ % git pull
+fatal: not a git repository (or any of the parent directories): .git
+a1278@MacBook-Pro-a1278 ~ % 
+a1278@MacBook-Pro-a1278 ~ % git help config
+a1278@MacBook-Pro-a1278 ~ % 
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 ~ % git config --list
+credential.helper=osxkeychain
+user.name=MarinaSir
+user.email=marina.sir1982@gmail.com
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 ~ % ld
+ld: warning: platform not specified
+ld: warning: -arch not specified
+ld: warning: No platform min-version specified on command line
+ld: no object files specified
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 ~ % ls
+<html>.html	Documents	Movies		Postman		Visual.studio
+Applications	Downloads	Music		Public		qa.a-tsp.com
+Desktop		Library		Pictures	VSCODE-BASICS
+a1278@MacBook-Pro-a1278 ~ % cd downloads
+a1278@MacBook-Pro-a1278 downloads % ls        
+8C8198DB-2CF8-40C1-AA6E-A5AE4C6CCB9F 2.jpg
+DB.Browser.for.SQLite-3.11.2.dmg
+DB.Browser.for.SQLite-3.12.0.dmg
+Fiddler Everywhere 1.6.0.dmg
+Fiddler Everywhere 1.6.0.exe
+Fiddler+Charles+Confluence.pptx
+GIT.pptx
+JMeter (2).pptx
+JMeter (2).pptx.cpgz
+Movavi Sync
+Postman.app
+QA_homework_1 (2).html
+QA_homework_1.html
+QA_homework_2 (1).html
+QA_homework_2.html
+SQE_Test_Design_Specification_Template.pdf
+SQLiteDatabaseBrowserPortable_3.11.2_English.paf (1).exe
+SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe
+VC_Marina_Sirotkina_QAManual-2.pdf
+VC_Marina_Sirotkina_QAManual-3.pdf
+VC_Marina_Sirotkina_QAManual.pdf
+Visual Studio Code-2.app
+Visual Studio Code.app
+Web технологии _ HTML.pptx
+Zoom.pkg
+_STLC (??????????????? ??????? ????????????) + ???????? ???????????? ?. 1 2.pptx
+_STLC (фундаментальный процесс тестирования) + тестовая документация ч. 1.pptx.cpgz
+_STLC (фундаментальный процесс тестирования) + тестовая документация ч. 1.pptx
+apache-jmeter-5.4-2.1
+apache-jmeter-5.4.1
+apache-jmeter-5.4.1 2
+apache-jmeter-5.4.1 3
+apache-jmeter-5.4.1.tar
+apache-jmeter-5.4.1.tgz
+apache-jmeter-5.4.1.zip
+apache-jmeter-5.4.1_src.tar
+bryakaM.mp4
+charles-proxy-4.6.1.dmg
+dbeaver-ce-21.0.5-macos.dmg
+jdk-16.0.1.jdk
+jdk-16.0.1_osx-x64_bin.dmg
+jre-8u291-macosx-x64.dmg
+npp.7.9.5.Installer.exe
+openjdk-16.0.1_osx-x64_bin.tar
+Виды тестирования.pptx
+Запись экрана от 29.05.2021 23_11_21.mp4
+Как писать Резюме.pdf
+Лекция 1 - Вводное.pptx
+Мобильное тестирование.pptx
+Новый документ.pdf
+Резюме.pdf
+Тестирование Web GUI.pptx
+Тестовая документация ч. 2.pptx
+Техники тест-дизайна 2.pptx
+отчет2020NG.PNG
+a1278@MacBook-Pro-a1278 downloads % clear
+
+a1278@MacBook-Pro-a1278 downloads % git clone https://github.com/MarinaSir/homework36.git
+Cloning into 'homework36'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+a1278@MacBook-Pro-a1278 downloads % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 downloads % ls
+8C8198DB-2CF8-40C1-AA6E-A5AE4C6CCB9F 2.jpg
+DB.Browser.for.SQLite-3.11.2.dmg
+DB.Browser.for.SQLite-3.12.0.dmg
+Fiddler Everywhere 1.6.0.dmg
+Fiddler Everywhere 1.6.0.exe
+Fiddler+Charles+Confluence.pptx
+GIT.pptx
+JMeter (2).pptx
+JMeter (2).pptx.cpgz
+Movavi Sync
+Postman.app
+QA_homework_1 (2).html
+QA_homework_1.html
+QA_homework_2 (1).html
+QA_homework_2.html
+SQE_Test_Design_Specification_Template.pdf
+SQLiteDatabaseBrowserPortable_3.11.2_English.paf (1).exe
+SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe
+VC_Marina_Sirotkina_QAManual-2.pdf
+VC_Marina_Sirotkina_QAManual-3.pdf
+VC_Marina_Sirotkina_QAManual.pdf
+Visual Studio Code-2.app
+Visual Studio Code.app
+Web технологии _ HTML.pptx
+Zoom.pkg
+_STLC (??????????????? ??????? ????????????) + ???????? ???????????? ?. 1 2.pptx
+_STLC (фундаментальный процесс тестирования) + тестовая документация ч. 1.pptx.cpgz
+_STLC (фундаментальный процесс тестирования) + тестовая документация ч. 1.pptx
+apache-jmeter-5.4-2.1
+apache-jmeter-5.4.1
+apache-jmeter-5.4.1 2
+apache-jmeter-5.4.1 3
+apache-jmeter-5.4.1.tar
+apache-jmeter-5.4.1.tgz
+apache-jmeter-5.4.1.zip
+apache-jmeter-5.4.1_src.tar
+bryakaM.mp4
+charles-proxy-4.6.1.dmg
+dbeaver-ce-21.0.5-macos.dmg
+homework36
+jdk-16.0.1.jdk
+jdk-16.0.1_osx-x64_bin.dmg
+jre-8u291-macosx-x64.dmg
+npp.7.9.5.Installer.exe
+openjdk-16.0.1_osx-x64_bin.tar
+Виды тестирования.pptx
+Запись экрана от 29.05.2021 23_11_21.mp4
+Как писать Резюме.pdf
+Лекция 1 - Вводное.pptx
+Мобильное тестирование.pptx
+Новый документ.pdf
+Резюме.pdf
+Тестирование Web GUI.pptx
+Тестовая документация ч. 2.pptx
+Техники тест-дизайна 2.pptx
+отчет2020NG.PNG
+a1278@MacBook-Pro-a1278 downloads % clear
+
+a1278@MacBook-Pro-a1278 downloads % cd Documents
+cd: no such file or directory: Documents
+a1278@MacBook-Pro-a1278 downloads % git clone https://github.com/MarinaSir/homework36.git
+fatal: destination path 'homework36' already exists and is not an empty directory.
+a1278@MacBook-Pro-a1278 downloads % cd Documents
+cd: no such file or directory: Documents
+a1278@MacBook-Pro-a1278 downloads % clean
+zsh: command not found: clean
+a1278@MacBook-Pro-a1278 downloads % clean
+zsh: command not found: clean
+a1278@MacBook-Pro-a1278 downloads % 
+a1278@MacBook-Pro-a1278 downloads % 
+a1278@MacBook-Pro-a1278 downloads % ls
+8C8198DB-2CF8-40C1-AA6E-A5AE4C6CCB9F 2.jpg
+DB.Browser.for.SQLite-3.11.2.dmg
+DB.Browser.for.SQLite-3.12.0.dmg
+Fiddler Everywhere 1.6.0.dmg
+Fiddler Everywhere 1.6.0.exe
+Fiddler+Charles+Confluence.pptx
+GIT.pptx
+JMeter (2).pptx
+JMeter (2).pptx.cpgz
+Movavi Sync
+Postman.app
+QA_homework_1 (2).html
+QA_homework_1.html
+QA_homework_2 (1).html
+QA_homework_2.html
+SQE_Test_Design_Specification_Template.pdf
+SQLiteDatabaseBrowserPortable_3.11.2_English.paf (1).exe
+SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe
+VC_Marina_Sirotkina_QAManual-2.pdf
+VC_Marina_Sirotkina_QAManual-3.pdf
+VC_Marina_Sirotkina_QAManual.pdf
+Visual Studio Code-2.app
+Visual Studio Code.app
+Web технологии _ HTML.pptx
+Zoom.pkg
+_STLC (??????????????? ??????? ????????????) + ???????? ???????????? ?. 1 2.pptx
+_STLC (фундаментальный процесс тестирования) + тестовая документация ч. 1.pptx.cpgz
+_STLC (фундаментальный процесс тестирования) + тестовая документация ч. 1.pptx
+apache-jmeter-5.4-2.1
+apache-jmeter-5.4.1
+apache-jmeter-5.4.1 2
+apache-jmeter-5.4.1 3
+apache-jmeter-5.4.1.tar
+apache-jmeter-5.4.1.tgz
+apache-jmeter-5.4.1.zip
+apache-jmeter-5.4.1_src.tar
+bryakaM.mp4
+charles-proxy-4.6.1.dmg
+dbeaver-ce-21.0.5-macos.dmg
+homework36
+jdk-16.0.1.jdk
+jdk-16.0.1_osx-x64_bin.dmg
+jre-8u291-macosx-x64.dmg
+npp.7.9.5.Installer.exe
+openjdk-16.0.1_osx-x64_bin.tar
+Виды тестирования.pptx
+Запись экрана от 29.05.2021 23_11_21.mp4
+Как писать Резюме.pdf
+Лекция 1 - Вводное.pptx
+Мобильное тестирование.pptx
+Новый документ.pdf
+Резюме.pdf
+Тестирование Web GUI.pptx
+Тестовая документация ч. 2.pptx
+Техники тест-дизайна 2.pptx
+отчет2020NG.PNG
+a1278@MacBook-Pro-a1278 downloads % clean
+zsh: command not found: clean
+a1278@MacBook-Pro-a1278 downloads % clear
+
+a1278@MacBook-Pro-a1278 downloads % cd githomework36
+cd: no such file or directory: githomework36
+a1278@MacBook-Pro-a1278 downloads % cd git homework36
+cd: string not in pwd: git
+a1278@MacBook-Pro-a1278 downloads % cd gitn1
+cd: no such file or directory: gitn1
+a1278@MacBook-Pro-a1278 downloads % git status
+fatal: not a git repository (or any of the parent directories): .git
+a1278@MacBook-Pro-a1278 downloads % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 downloads % git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+a1278@MacBook-Pro-a1278 downloads % clear
+
+a1278@MacBook-Pro-a1278 downloads % git --local
+unknown option: --local
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+a1278@MacBook-Pro-a1278 downloads % git init
+Initialized empty Git repository in /Users/a1278/Downloads/.git/
+a1278@MacBook-Pro-a1278 downloads % git config --list
+credential.helper=osxkeychain
+user.name=MarinaSir
+user.email=marina.sir1982@gmail.com
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+a1278@MacBook-Pro-a1278 downloads % clear
+
+
+
+
+a1278@MacBook-Pro-a1278 downloads % cd file:///Users/a1278/Downloads/homework36/git
+cd: no such file or directory: file:///Users/a1278/Downloads/homework36/git
+a1278@MacBook-Pro-a1278 downloads % cd homework36/git
+a1278@MacBook-Pro-a1278 git % cd file:///Users/a1278/Downloads/git
+cd: no such file or directory: file:///Users/a1278/Downloads/git
+a1278@MacBook-Pro-a1278 git % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 git % cd
+a1278@MacBook-Pro-a1278 ~ % git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+a1278@MacBook-Pro-a1278 ~ % init  
+zsh: command not found: init
+a1278@MacBook-Pro-a1278 ~ % clear
+
+a1278@MacBook-Pro-a1278 ~ % cd
+a1278@MacBook-Pro-a1278 ~ % git                                                
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+a1278@MacBook-Pro-a1278 ~ % clear
+
+a1278@MacBook-Pro-a1278 ~ % git status
+fatal: not a git repository (or any of the parent directories): .git
+a1278@MacBook-Pro-a1278 ~ % git=terminal
+a1278@MacBook-Pro-a1278 ~ % git status
+fatal: not a git repository (or any of the parent directories): .git
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a1278@MacBook-Pro-a1278 ~ % git config --global core.autocrlf input
+a1278@MacBook-Pro-a1278 ~ % gitk
+zsh: command not found: gitk
+a1278@MacBook-Pro-a1278 ~ % git clone https://github.com/MarinaSir/homework36.git
+Cloning into 'homework36'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+a1278@MacBook-Pro-a1278 ~ % git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+	log
+a1278@MacBook-Pro-a1278 ~ % ld
+ld: warning: platform not specified
+ld: warning: -arch not specified
+ld: warning: No platform min-version specified on command line
+ld: no object files specified
+a1278@MacBook-Pro-a1278 ~ % clear
+
+
+
+a1278@MacBook-Pro-a1278 ~ % ls 
+<html>.html	Documents	Movies		Postman		Visual.studio
+Applications	Downloads	Music		Public		homework36
+Desktop		Library		Pictures	VSCODE-BASICS	qa.a-tsp.com
+a1278@MacBook-Pro-a1278 ~ % nano test.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  GNU nano 2.0.6              File: test.txt                          Modified  
+
+Hello Word1
+proba 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
